@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="OnsenUI-dist-2.10.6/OnsenUI-dist-2.10.6/css/onsenui-core.css">
+    <link rel="stylesheet" href="OnsenUI-dist-2.10.6/OnsenUI-dist-2.10.6/css/onsen-css-components.min.css">
+    <script src="OnsenUI-dist-2.10.6/OnsenUI-dist-2.10.6/js/onsenui.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <ons-page>
+                <div class="toolbar">
+                        <div class="toolbar__center">Navigation Bar</div>
+                      </div><br><br><br>
+        <div><input type="text" class="text-input text-input--underbar" id="text-input" placeholder="Input task..." value=""></div><br><br>
+        <button class="button" onclick="adauga()">Add task</button><br><br><br>
+        <button class="button" onclick="sterge()">Delete all</button><br><br><br>
+        <ul class="list" id="list">
+                <li class="list-header">
+                  Tasks
+                </li>
+                
+              </ul>
+    </ons-page>
+</body>
+</html>
